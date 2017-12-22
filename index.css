@@ -47,12 +47,14 @@ a {
 }
 
 .intro {
-  padding-top: 125px;
+  padding-top: 15%;
+  /*padding-top: 125px;*/
   /*padding-left: 25%;
   padding-right: 75px;*/
 }
 
 .contact-links {
+  letter-spacing: 8px;
   padding-top: 30px;
   padding-left: 75px;
   padding-right: 75px;
