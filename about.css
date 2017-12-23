@@ -1,6 +1,7 @@
 body {
   color: white;
   background-color: white;
+  background-image: url("images/me.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +17,8 @@ h1 {
   line-height: 38px;
   text-shadow: 0 1px 0 #aaa;
   letter-spacing: 6px;
-  padding-left: 20%;
+  /*padding-left: 20%;*/
+  text-align: center;
   /*padding-right: 25%;*/
 }
 
@@ -39,8 +41,9 @@ h3 {
   font-style: normal;
   font-variant: normal;
   line-height: 20px;
-  padding-left: 20%;
-  padding-right: 25%;
+  /*padding-left: 20%;*/
+  /*padding-right: 25%;*/
+  text-align: center;
 }
 
 a {
@@ -48,10 +51,11 @@ a {
 }
 
 .intro {
-  padding-top: 5%;
+  padding-top: 3%;
   /*padding-top: 125px;*/
-  padding-left: 25%;
-  padding-right: 75px;
+  padding-left: 40%;
+  padding-right: 5%;
+  padding-bottom: 3%;
 }
 
 .contact-links {
@@ -69,13 +73,26 @@ a {
 }
 
 .nav.navbar-nav.navbar-right li a {
-  color: #7C7878;
+  color: white;
   /*font-family: 'Roboto Mono';*/
 }
 
 .navbar-brand {
   color: #fdb632;
   font-size: 28px;
+}
+
+
+div.transbox {
+    margin: 20px;
+    background-color: #ffffff;
+    /*border: 1px solid black;*/
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 10%;
 }
 
 /*@media (max-width: 731px) {
