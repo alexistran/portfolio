@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -115,6 +115,10 @@ nav a:nth-child(n+2):nth-child(-n+7) {
   font-size: 24px;
 }
 
+.topnav a:nth-child(1):hover {
+	color: #333;
+}
+
 .topnav a:nth-child(n+2):nth-child(-n+6) {
   float: right;
   color: #333;
@@ -125,11 +129,15 @@ nav a:nth-child(n+2):nth-child(-n+7) {
 }
 
 .topnav a:hover {
-  color: red;
+  color: #fc5356;
+}
+
+.topnav a:nth-child(n+2):nth-child(-n+6):hover {
+	color: #fc5356;
 }
 
 .active {
-  color: red;
+  color: #fc5356;
 }
 
 .topnav .icon {
@@ -150,7 +158,6 @@ nav a:nth-child(n+2):nth-child(-n+7) {
     overflow-y: hidden;
     transition: 0.5s;
 }
-
 .overlay-content {
     position: relative;
     top: 25%;
@@ -158,7 +165,6 @@ nav a:nth-child(n+2):nth-child(-n+7) {
     text-align: center;
     margin-top: 30px;
 }
-
 .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -167,11 +173,9 @@ nav a:nth-child(n+2):nth-child(-n+7) {
     display: block;
     transition: 0.3s;
 }
-
 .overlay a:hover, .overlay a:focus {
     color: #fc5356;
 }
-
 .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -184,17 +188,14 @@ header {
 	margin: 150px 50px 150px 50px;
 	text-align: center;
 }
-
 header h1 {
 	color: #fc5356;
 	/*font-family: 'Montserrat', sans-serif;*/
 }
-
 header p {
 	width: 45%;
 	margin: 30px auto 0 auto;
 }
-
 header #changeText {
 	margin: 10px auto 0 auto;
 }
@@ -210,7 +211,6 @@ header #changeText {
 .work {
 	text-align: center;
 }
-
 .work a img {
 	margin: 1%;
 	width: 40%;
@@ -222,7 +222,6 @@ header #changeText {
 	width: 100%;
 	text-align: center;
 }
-
 .work2 a img {
 	margin: 1%;
 	width: 80%;
@@ -233,7 +232,6 @@ footer {
 	text-align: center;
 	margin: 60px 0;
 }
-
 footer p {
 	color: #333;
 }
@@ -261,7 +259,6 @@ footer p {
 	    float: right;
 	    display: block;
 	}
-
 	.topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
@@ -273,8 +270,6 @@ footer p {
         display: block;
         text-align: left;
     }
-
-
 	header {
 		width: 96%;
 		margin: 30px auto 100px auto;
@@ -285,6 +280,4 @@ footer p {
 		width: 90%;
 		margin: 60px auto;
 	}
-
-
 }
