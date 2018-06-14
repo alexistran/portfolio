@@ -1,0 +1,189 @@
+/*global*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'Karla', sans-serif;
+	color: #333;
+}
+
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	color: red;
+	font-size: 36px;
+}
+
+p {
+	color: #333;
+	font-size: 16px;
+} 
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #fc5356;
+}
+
+a.highlight {
+	position:relative;
+	text-decoration: none;
+    color: #333;
+}
+
+.highlight:before{
+	width:100%;
+	height:8px;
+	position:absolute;
+	left:0px;
+	bottom:-4px;
+	content:"";
+	display:block;
+	background-color: #fc5356;
+	z-index:-1;
+	opacity: 1;
+	-webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+a.highlight:hover{
+	color: inherit !important;
+}
+
+a.highlight:hover:before {
+	color: #fc5356;
+	background-color: #fc5356;
+    height:25px;
+}
+
+/*nav*/
+nav {
+	height: 100px;
+	line-height: 100px;
+	margin: 0 60px 0 60px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:nth-child(1) {
+	color: #333;
+	font-size: 26px;
+}
+
+nav a:nth-child(n+2):nth-child(-n+7) {
+	float: right;
+	margin: 0px 30px 0px 0px;
+	font-size: 14px;
+}
+
+
+/*header*/
+header {
+	margin: 100px 50px 200px 50px;
+	text-align: center;
+}
+
+header h1 {
+	color: #fc5356;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+header p {
+	width: 45%;
+	margin: 30px auto 0 auto;
+}
+
+header #changeText {
+	margin: 10px auto 0 auto;
+}
+
+/*header a {
+	color: red;
+	text-decoration: none;
+}*/
+
+
+
+/*work*/
+.work {
+	text-align: center;
+}
+
+.work a img {
+	margin: 1%;
+	width: 40%;
+
+}
+
+/*work2*/
+.work2 {
+	width: 100%;
+	text-align: center;
+}
+
+.work2 a img {
+	margin: 1%;
+	width: 80%;
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
+
+footer p {
+	color: #333;
+}
+
+/*responsive*/
+@media only screen and (max-width: 991px) {
+	header p {
+		width: 100%;
+	}
+	.work a img {
+		margin: 2%;
+		width: 96%;
+	}
+	.work2 a img {
+		margin: 2%;
+		width: 96%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		width: 96%;
+		margin: 30px auto 100px auto;
+		text-align: left;
+	}
+	footer {
+		text-align: left;
+		width: 90%;
+		margin: 60px auto;
+	}
+}
