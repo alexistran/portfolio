@@ -20,4 +20,12 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+
+    // opens nav
+    document.getElementById("myNav").style.height = "100%"; 
+}
+
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
 }
