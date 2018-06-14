@@ -100,10 +100,10 @@ nav a:nth-child(n+2):nth-child(-n+7) {
 	font-size: 14px;
 }*/
 
-/*topnav*/
-/* Add a black background color to the top navigation */
+/*nav*/
 .topnav {
   overflow: hidden;
+  margin: 40px 60px 0 60px;
 }
 
 .topnav a:nth-child(1) {
@@ -112,12 +112,11 @@ nav a:nth-child(n+2):nth-child(-n+7) {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .topnav a:nth-child(n+2):nth-child(-n+6) {
   float: right;
-  
   color: #333;
   text-align: center;
   padding: 20px 16px;
