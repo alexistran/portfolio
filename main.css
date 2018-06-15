@@ -41,7 +41,7 @@ a:hover {
 	color: #fc5356;
 }
 
-a.highlight {
+/*a.highlight {
 	position:relative;
 	text-decoration: none;
     color: #333;
@@ -70,6 +70,9 @@ a.highlight:hover:before {
 	color: #fc5356;
 	background-color: #fc5356;
     height:25px;
+}*/
+a.highlight {
+	color: #fc5356;
 }
 
 /*----------------------nav----------------------*/
@@ -176,7 +179,6 @@ header a {
 }
 
 
-
 /*----------------------work----------------------*/
 .work {
 	text-align: center;
@@ -185,9 +187,6 @@ header a {
 	margin: 1%;
 	width: 40%;
 }
-
-
-
 
 /*----------------------work2----------------------*/
 .work2 {
