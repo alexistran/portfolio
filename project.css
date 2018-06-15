@@ -30,7 +30,7 @@ body {
 
 p {
 	color: #333;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0px 0px 10px 0px;
 } 
 
@@ -43,6 +43,10 @@ a:hover {
 }
 
 .link {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+.link:hover {
 	color: #fc5356;
 	text-decoration: none;
 }
@@ -139,7 +143,7 @@ img {
 
 
 .top-title {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 /*.top-description {
@@ -152,7 +156,7 @@ img {
 }
 
 .page-break {
-	padding: 20px 0px 20px 0px;
+	padding: 30px 0px 30px 0px;
 }
 
 #info-title {
@@ -166,13 +170,42 @@ img {
 	padding: 0px 0px 0px 0px;
 }
 
-#header {
-	font-size: 20px;
+#overview-header {
+	font-size: 18px;
+	font-weight: 600;
 	padding: 0px 0px 0px 0px;
 }
 
+#header {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0px 0px 10px 0px;
+}
+
+#topper {
+	color: #b5b5b5;
+	font-size: 16px;
+	padding: 0px 0px 0px 0px;
+}
+
+ol {
+	font-family: 'Inconsolata', monospace;
+}
+
+.i-d {
+	color: #778899;
+}
+
 .interview-guide {
-	padding: 20px 30px 20px 30px;
+	color: #778899;
+	padding: 20px 50px 20px 50px;
+	background-color: #F6F7FB;
+	font-size: 18px;
+	/*font-family: 'Inconsolata', monospace;*/
+}
+.bg {
+	padding: 40px 50px 20px 50px;
+	background-color: #F6F7FB;
 }
 
 /*----------------------footer----------------------*/
