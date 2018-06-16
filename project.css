@@ -57,7 +57,7 @@ a:hover {
 
 .topnav a:nth-child(1) {
   float: left;
-  color: #333;
+  color: #fc5356;
   text-align: left;
   padding: 38px 16px;
   text-decoration: none;
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .topnav a:nth-child(1):hover {
-	color: #333;
+	color: #fc5356;
 }
 
 .topnav a:nth-child(n+2):nth-child(-n+6) {
