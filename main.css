@@ -86,7 +86,8 @@ a.highlight {
   text-align: left;
   padding: 38px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .topnav a:nth-child(1):hover {
@@ -97,9 +98,10 @@ a.highlight {
   float: right;
   color: #333;
   text-align: center;
-  padding: 40px 16px;
+  padding: 50px 16px;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 100;
 }
 
 .topnav a:hover {

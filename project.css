@@ -43,7 +43,7 @@ a:hover {
 }
 
 .link {
-	color: #b5b5b5;
+	color: #778899;;
 	text-decoration: none;
 }
 .link:hover {
@@ -61,7 +61,8 @@ a:hover {
   text-align: left;
   padding: 38px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .topnav a:nth-child(1):hover {
@@ -72,9 +73,10 @@ a:hover {
   float: right;
   color: #333;
   text-align: center;
-  padding: 40px 16px;
+  padding: 50px 16px;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 100;
 }
 
 .topnav a:hover {
@@ -92,6 +94,7 @@ a:hover {
 .topnav .icon {
   padding: 36px 16px;
   display: none;
+  color: #333;
 }
 
 /*----------------------nav overlay----------------------*/
@@ -144,7 +147,7 @@ img {
 
 .top-title {
 	font-size: 30px;
-	padding: 20px 0px 0px 0px;
+	padding: 40px 0px 0px 0px;
 }
 
 /*.top-description {
@@ -202,6 +205,7 @@ ol {
 	font-family: 'Inconsolata', monospace;
 }
 
+
 /*li {
 	font-size: 16px;
 }*/
@@ -226,6 +230,10 @@ footer {
 footer p {
 	color: #333;
 	font-size: 12px;
+}
+
+.foot {
+	color: #333;
 }
 
 /*----------------------responsive----------------------*/
@@ -271,5 +279,6 @@ footer p {
 		text-align: left;
 		width: 90%;
 		margin: 60px auto;
+
 	}
 }
