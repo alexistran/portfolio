@@ -137,8 +137,37 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  padding: 40px 0px 0px 0px;
+
 }
 
+.page-break {
+	padding: 30px 0px 30px 0px;
+}
+
+.about-title {
+	font-size: 28px;
+	color: #292a2c;
+	padding: 40px 0px 0px 0px;
+}
+
+.about-subtitle {
+	font-size: 24px;
+	color: #292a2c;
+}
+.about-subsubtitle {
+	font-size: 20px;
+	color: #292a2c;
+}
+
+.link {
+	color: #fc5356;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #fc5356;
+}
 /*----------------------header----------------------*/
 header {
 	margin: 125px 50px 150px 50px;
