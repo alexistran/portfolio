@@ -35,11 +35,17 @@ p {
 
 a {
 	color: #333;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #fc5356;
+	text-decoration: none;
 }
+/*a:hover, a:visited, a:link, a:active {
+	color: #fc5356;
+    text-decoration: none;
+}*/
 
 /*a.highlight {
 	position:relative;
@@ -71,10 +77,15 @@ a.highlight:hover:before {
 	background-color: #fc5356;
     height:25px;
 }*/
-a.highlight {
+.highlight {
 	color: #fc5356;
+	/*text-decoration: none;*/
 }
 
+.highlight :hover {
+	color: #fc5356;
+	text-decoration: none;
+}
 /*a.img :hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
