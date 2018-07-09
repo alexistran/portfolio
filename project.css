@@ -201,6 +201,11 @@ img {
 	padding: 0px 0px 0px 0px;
 }
 
+#large-text {
+	font-size: 30px;
+	font-family: serif;
+}
+
 /*ol {
 	font-family: 'Inconsolata', monospace;
 }*/
