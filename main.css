@@ -229,13 +229,14 @@ header h1 {
 header p {
 	width: 45%;
 	margin: 30px auto 0 auto;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	/*font-weight: 600;*/
 }
 header #changeText {
 	margin: 10px auto 0 auto;
 	font-family: 'Roboto', sans-serif;
-	/*color: red;*/
+	font-size: 18px;
 }
 
 header a {
@@ -263,14 +264,18 @@ header a {
 	width: 80%;
 }
 #project-title {
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 0em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 }
 
 #project-description {
-	color: gray;
-	font-size: 18px;
+	color: #767676;
+	font-size: 22px;
 	line-height: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 /*----------------------footer----------------------*/
