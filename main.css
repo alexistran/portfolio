@@ -139,6 +139,7 @@ a.work-image:hover + .project-title {
 .topnav a:nth-child(1) {
   float: left;
   color: #fc5356;
+  /*color: #333;*/
   text-align: left;
   padding: 38px 16px;
   text-decoration: none;
@@ -148,6 +149,7 @@ a.work-image:hover + .project-title {
 
 .topnav a:nth-child(1):hover {
 	color: #fc5356;
+	/*color: #333;*/
 }
 
 .topnav a:nth-child(n+2):nth-child(-n+6) {
@@ -222,7 +224,8 @@ header {
 	text-align: center;
 }
 header h1 {
-	color: #fa545a;
+	/*color: #fa545a;*/
+	color: #333;
 	font-family: 'Roboto', sans-serif;
 	/*font-weight: 500;*/
 }
@@ -241,7 +244,8 @@ header #changeText {
 
 header a {
 	color: #fa545a;
-	text-decoration: none;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: red;*/
 }
 
 
@@ -271,7 +275,7 @@ header a {
 }
 
 #project-description {
-	color: #767676;
+	color: #a7a7a7;
 	font-size: 21px;
 	line-height: 1em;
 	font-family: 'Roboto', sans-serif;
