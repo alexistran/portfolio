@@ -9,7 +9,7 @@
 }
 
 html {
-	font-family: 'Karla', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
 
@@ -21,7 +21,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
-
+f
 .clearfix::after {
 	content: "";
 	clear: both;
@@ -32,6 +32,7 @@ p {
 	color: #333;
 	font-size: 16px;
 	padding: 0px 0px 0px 0px;
+	font-family: 'Roboto', sans-serif;
 } 
 
 a {
@@ -148,6 +149,7 @@ img {
 .top-title {
 	font-size: 30px;
 	padding: 40px 0px 0px 0px;
+	font-family: 'Roboto', sans-serif;
 }
 
 /*.top-description {
