@@ -51,51 +51,49 @@ a:hover {
 	color: #fc5356;
 	text-decoration: none;
 }
-/*----------------------nav----------------------*/
+/*---------------nav---------------*/
 .topnav {
-  overflow: hidden;
+    overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
 .topnav a:nth-child(1) {
-  float: left;
-  color: #fc5356;
-  text-align: left;
-  padding: 38px 16px;
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 600;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 40px 16px;
 }
 
-.topnav a:nth-child(1):hover {
-	color: #fc5356;
+.topnav a:nth-child(n+2):nth-child(-n+3) {
+    float: right;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 
-.topnav a:nth-child(n+2):nth-child(-n+6) {
-  float: right;
-  color: #333;
-  text-align: center;
-  padding: 50px 16px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-}
 
-.topnav a:hover {
-  color: #fc5356;
-}
 
+/* Change the color of links on hover */
 .topnav a:nth-child(n+2):nth-child(-n+6):hover {
-	color: #fc5356;
+    /*background-color: #ddd;*/
+    color: #ddd;
 }
 
+/* Add an active class to highlight the current page */
 .active {
-  color: #fc5356;
+    /*background-color: #4CAF50;*/
+    color: #ddd;
 }
 
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  padding: 36px 16px;
-  display: none;
-  color: #333;
+    display: none;
+    padding: 36px 16px;
+    color: #333;
 }
 
 /*----------------------nav overlay----------------------*/
@@ -109,7 +107,7 @@ a:hover {
     background-color: rgb(0,0,0);
     background-color: white;
     overflow-y: hidden;
-    transition: 0.5s;
+    transition: 0s;
 }
 .overlay-content {
     position: relative;
@@ -127,7 +125,8 @@ a:hover {
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #fc5356;
+    color: #ffe5e5;
+    text-decoration: none;
 }
 .overlay .closebtn {
     position: absolute;

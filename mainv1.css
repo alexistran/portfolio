@@ -1,0 +1,343 @@
+/*----------------------global----------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'Karla', sans-serif;
+	color: #333;
+}
+
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+h1 {
+	color: red;
+	font-size: 32px;
+}
+
+p {
+	color: #333;
+	font-size: 16px;
+} 
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fc5356;
+	text-decoration: none;
+}
+/*a:hover, a:visited, a:link, a:active {
+	color: #fc5356;
+    text-decoration: none;
+}*/
+
+/*a.highlight {
+	position:relative;
+	text-decoration: none;
+    color: #333;
+}
+
+.highlight:before{
+	width:100%;
+	height:8px;
+	position:absolute;
+	left:0px;
+	bottom:-4px;
+	content:"";
+	display:block;
+	background-color: #fc5356;
+	z-index:-1;
+	opacity: 1;
+	-webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+a.highlight:hover{
+	color: inherit !important;
+}
+
+a.highlight:hover:before {
+	color: #fc5356;
+	background-color: #fc5356;
+    height:25px;
+}*/
+.highlight {
+	color: #fc5356;
+	/*text-decoration: none;*/
+}
+
+.highlight :hover {
+	color: #fc5356;
+	text-decoration: none;
+}
+/*a.img :hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}*/
+
+/*.project-title {
+	position: absolute;
+	left: 0px;
+	display: none;
+	width: 300px;
+	text-align: center;
+	margin: 0;
+	height: 20px;
+	top: 140px;
+}
+
+a.work-image:hover + .project-title {
+  display: block;
+}*/
+/*.project-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.proj:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-title {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+*/
+/*----------------------nav----------------------*/
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a:nth-child(1) {
+  float: left;
+  color: #fc5356;
+  /*color: #333;*/
+  text-align: left;
+  padding: 38px 16px;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.topnav a:nth-child(1):hover {
+	color: #fc5356;
+	/*color: #333;*/
+}
+
+.topnav a:nth-child(n+2):nth-child(-n+6) {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.topnav a:hover {
+  color: #fc5356;
+}
+
+.topnav a:nth-child(n+2):nth-child(-n+6):hover {
+	color: #fc5356;
+}
+
+.active {
+  color: #fc5356;
+}
+
+.topnav .icon {
+  padding: 36px 16px;
+  display: none;
+  color: #333;
+}
+
+/*----------------------nav overlay----------------------*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #fc5356;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 45px;
+}
+
+/*----------------------header----------------------*/
+header {
+	margin: 125px 50px 150px 50px;
+	text-align: center;
+}
+header h1 {
+	/*color: #fa545a;*/
+	color: #333;
+	font-family: 'Lateef', cursive;
+	font-size: 40px;
+	/*font-weight: 500;*/
+}
+header p {
+	width: 45%;
+	margin: 30px auto 0 auto;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	/*font-weight: 600;*/
+}
+header #changeText {
+	margin: 10px auto 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+header a {
+	color: #fa545a;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: red;*/
+}
+
+
+/*----------------------work----------------------*/
+.work {
+	text-align: center;
+}
+.work a img {
+	margin: 1%;
+	width: 100%;
+}
+
+/*----------------------work2----------------------*/
+.work2 {
+	width: 100%;
+	text-align: center;
+}
+.work2 a img {
+	margin: 1%;
+	width: 80%;
+}
+#project-title {
+	font-size: 22px;
+	line-height: 0em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+#project-description {
+	color: #a7a7a7;
+	font-size: 21px;
+	line-height: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+/*----------------------footer----------------------*/
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
+footer p {
+	color: #333;
+	font-size: 12px;
+}
+.foot {
+	color: #333;
+}
+
+/*----------------------responsive----------------------*/
+@media only screen and (max-width: 991px) {
+	header p {
+		width: 100%;
+	}
+	.work a img {
+		margin: 2%;
+		width: 96%;
+	}
+	.work2 a img {
+		margin: 2%;
+		width: 96%;
+	}
+}
+
+@media only screen and (max-width: 825px) {
+	.topnav a:nth-child(n+2):nth-child(-n+6) {
+		display: none;
+	}
+	.topnav a.icon {
+	    float: right;
+	    display: block;
+	}
+	.topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+	header {
+		width: 96%;
+		margin: 30px auto 100px auto;
+		text-align: left;
+	}
+	footer {
+		text-align: left;
+		width: 90%;
+		margin: 60px auto;
+	}
+}
