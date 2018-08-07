@@ -1,55 +1,16 @@
-/*----------------------global----------------------*/
+
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-html {
-	font-family: 'Muli', sans-serif;
-	color: #333;
-}
-
-body {
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 .wrapper {
-	width: 80%;
-	margin: 0 auto;
-}
-f
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-p {
-	color: #333;
-	font-size: 16px;
-	padding: 0px 0px 0px 0px;
-	font-family: 'Muli', sans-serif;
-} 
-
-a {
-	color: #333;
-}
-
-a:hover {
-	color: #fc5356;
-}
-
-.link {
-	color: #778899;;
-	text-decoration: none;
-}
-.link:hover {
-	color: #fc5356;
-	text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
 }
 /*---------------nav---------------*/
 .topnav {
@@ -130,7 +91,7 @@ a:hover {
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #ffe5e5;
+    color: #FFF583;
     text-decoration: none;
 }
 .overlay .closebtn {
@@ -139,7 +100,6 @@ a:hover {
     right: 45px;
     font-size: 45px;
 }
-
 
 /*----------------------body----------------------*/
 
@@ -271,34 +231,27 @@ footer p {
 	}
 }
 
-@media only screen and (max-width: 825px) {
-	.topnav a:nth-child(n+2):nth-child(-n+6) {
-		display: none;
-	}
-	.topnav a.icon {
-	    float: right;
-	    display: block;
-	}
-	.topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+@media screen and (max-width: 800px) {
+  .topnav a:nth-child(n+2):nth-child(-n+4) {
+    display: none;
     }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-	header {
-		width: 96%;
-		margin: 30px auto 100px auto;
-		text-align: left;
-	}
-	footer {
-		text-align: left;
-		width: 90%;
-		margin: 60px auto;
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
-	}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a:nth-child(n+2):nth-child(-n+3) {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }

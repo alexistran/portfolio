@@ -220,47 +220,27 @@ footer p {
 }
 
 /*----------------------responsive----------------------*/
-@media only screen and (max-width: 991px) {
-	header p {
-		width: 100%;
-	}
-	.work a img {
-		margin: 2%;
-		width: 96%;
-	}
-	.work2 a img {
-		margin: 2%;
-		width: 96%;
-	}
+@media screen and (max-width: 800px) {
+  .topnav a:nth-child(n+2):nth-child(-n+4) {
+    display: none;
+    }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
-@media only screen and (max-width: 825px) {
-	.topnav a:nth-child(n+2):nth-child(-n+6) {
-		display: none;
-	}
-	.topnav a.icon {
-	    float: right;
-	    display: block;
-	}
-	.topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-	header {
-		width: 96%;
-		margin: 30px auto 100px auto;
-		text-align: left;
-	}
-	footer {
-		text-align: left;
-		width: 90%;
-		margin: 60px auto;
-	}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a:nth-child(n+2):nth-child(-n+3) {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }

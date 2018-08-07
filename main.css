@@ -91,7 +91,7 @@
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #ffe5e5;
+    color: #FFF583;
     text-decoration: none;
 }
 .overlay .closebtn {
@@ -103,7 +103,7 @@
 
 /*------------------header-----------------*/
 header {
-    margin: 90px 0px 155px 60px;
+    margin: 80px 0px 145px 60px;
     text-align: left;
 }
 
