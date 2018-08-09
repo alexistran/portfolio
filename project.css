@@ -182,6 +182,22 @@ img {
     font-weight: 600;
 }
 
+#topper-r {
+    color: #e5362b;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+#topper-b {
+    color: #053a70;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
 #large-text {
 	font-size: 30px;
 	font-family: serif;
