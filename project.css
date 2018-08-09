@@ -12,6 +12,12 @@
     width: 80%;
     margin: 0 auto;
 }
+
+p {
+    font-size: 16px;
+}
+
+
 /*---------------nav---------------*/
 .topnav {
     overflow: hidden;
@@ -152,7 +158,7 @@ img {
 }
 
 #header {
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: 600;
 	padding: 0px 0px 10px 0px;
 }
@@ -162,14 +168,36 @@ img {
 }
 
 #topper {
-	color: #b5b5b5;
-	font-size: 16px;
+	color: #fd6796;
+	font-size: 14px;
 	padding: 0px 0px 0px 0px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+#topper-o {
+    color: #fd9c30;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 
 #large-text {
 	font-size: 30px;
 	font-family: serif;
+}
+
+#gray {
+    background: #f6f6f6;
+    /*width: 100%;*/
+    /*padding-top: 25px;*/
+    /*padding-bottom: 35px;*/
+
+    /*height: 100%;*/
+    /*position: fixed;*/
+   /* top: 0;
+    left: 0;
+    width: 100%;*/
 }
 
 /*ol {
