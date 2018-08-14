@@ -97,7 +97,7 @@ p {
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #FFF583;
+    color: #FDE541;
     text-decoration: none;
 }
 .overlay .closebtn {
