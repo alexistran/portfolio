@@ -23,6 +23,7 @@ h2 {
 }
 h6 {
     color: #424242;
+    /*line-height: 200%;*/
 }
 
 
@@ -69,6 +70,17 @@ a:hover {
     text-decoration: none;
 }
 
+#about a {
+    color: #424242;
+    border-bottom: 1px dotted #f0ad41;
+}
+
+#about a:hover {
+    /*text-decoration: none;*/
+    color: #f0ad41;
+}
+
+
 
 /*----------------------body----------------------*/
 
@@ -78,22 +90,10 @@ img {
   height: auto;
 }
 
-
-/*.top-title {
-	font-size: 2.375rem;
-	padding: 40px 0px 0px 0px;
-	font-family: 'Muli', sans-serif;
-    color: yellow;
-}*/
-
-/*.top-description {
-	font-size: 12px;
-	color: #b5b5b5;
-}*/
-
-/*.main-text p {
-	font-size: 16px;
-}*/
+img.egg {
+    max-width: 50px;
+    height: 50px;
+}
 
 .page-break {
 	padding: 30px 0px 30px 0px;
@@ -117,8 +117,6 @@ img {
 }
 #overview {
 	font-size: 16px;
-/*	font-weight: 600;
-	padding: 0px 0px 0px 0px;*/
 }
 
 #header {
@@ -169,25 +167,7 @@ img {
 
 #gray {
     background: #f6f6f6;
-    /*width: 100%;*/
-    /*padding-top: 25px;*/
-    /*padding-bottom: 35px;*/
-
-    /*height: 100%;*/
-    /*position: fixed;*/
-   /* top: 0;
-    left: 0;
-    width: 100%;*/
 }
-
-/*ol {
-	font-family: 'Inconsolata', monospace;
-}*/
-
-
-/*li {
-	font-size: 16px;
-}*/
 
 .interview-guide {
 	color: #778899;
@@ -195,7 +175,6 @@ img {
 	background-color: #F6F7FB;
 	font-size: 16px;
 	font-family: 'Inconsolata', monospace;
-	/*font-family: 'Inconsolata', monospace;*/
 }
 
 .interview-guide p {
@@ -208,6 +187,11 @@ img {
 .bg {
 	padding: 40px 50px 20px 50px;
 	background-color: #F6F7FB;
+}
+
+.ow-center {
+    display: flex;
+    align-items: center;
 }
 
 /*----------------------footer----------------------*/
@@ -239,30 +223,6 @@ footer p {
 	}
 }
 
-/*@media screen and (max-width: 800px) {
-  .topnav a:nth-child(n+2):nth-child(-n+4) {
-    display: none;
-    }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}*/
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-/*@media screen and (max-width: 800px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a:nth-child(n+2):nth-child(-n+3) {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}*/
 @media screen and (max-width: 641px) {
     .topnav a:nth-child(n+2):nth-child(-n+5) {
         display: none;

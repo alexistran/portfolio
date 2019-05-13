@@ -20,6 +20,120 @@
 	<link rel="shortcut icon" href="images/egg.png" type="image/x-icon">
 
 </head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 <body>
-sorry nothing here yet!
+	<div class="wrapper">
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a>
+		  <a href="https://www.dropbox.com/s/wge3ocessv0ia4x/alexistranresume2019.pdf?dl=0" target="_blank">resume</a>
+		  <a href="index.html#about">about</a>
+		  <a href="index.html#play">play</a>
+		  <a href="index.html#work">work</a>
+		</div>
+	</div>
+
+<!-- Header -->
+	<div class="container-fluid">
+		<div class="mx-auto" style="width: 70%;">
+	    	<div class="row ow-center">
+	    		<div class="col-lg-6 col-md-6 col-sm-12">
+	    			<h2>Photography</h2>
+	    			<h6>2016 - Present</h6>
+	    		</div>
+	    		<!-- <div class="col-lg-6 col-md-6 col-sm-12"></div> -->
+	  		</div><br><br>
+	  	</div>
+	 </div>
+
+<!-- Photo Grid -->
+	<div class="container-fluid">
+		<div class="mx-auto" style="width: 70%;">
+			<div class="row"> 
+			  <div class="column">
+			    <img src="images/photo-portfolio/l1.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p1.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l3.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p6.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l6.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l7.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p15.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p8.jpg" style="width:100%">
+			  </div>
+			  <div class="column">
+			  	<img src="images/photo-portfolio/p7.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p2.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l2.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l11.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l8.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l12.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/l4.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p14.jpg" style="width:100%">
+			    <img src="images/photo-portfolio/p9.jpg" style="width:100%">
+			  </div>  
+			</div>
+		</div>
+	</div>
+<footer>
+		<center><a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a></center><br>
+		<h5>
+		<a href="http://linkedin.com/in/tranalexis" target="_blank"><i class="fa fa-linkedin foot"></i></a> &nbsp;
+		<a href="https://dribbble.com/alxstrn" target="_blank"><i class="fa fa-dribbble foot"></i></a> &nbsp;
+		<a href="https://github.com/alexistran" target="_blank"><i class="fa fa-github foot"></i></a> &nbsp;
+		<a href="https://www.pinterest.com/alexistran/" target="_blank"><i class="fa fa-pinterest foot"></i></a> &nbsp;
+		<a href="http://instagram.com/alxstrn" target="_blank"><i class="fa fa-instagram foot"></i></a></h5>
+	</footer>
+
 </body>
