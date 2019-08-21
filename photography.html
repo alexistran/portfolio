@@ -70,6 +70,12 @@ body {
     color: #f0ad41;
 }
 
+@media screen and (max-width: 641px) {
+    .topnav a:nth-child(n+2):nth-child(-n+5) {
+        display: none;
+    }
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -111,6 +117,7 @@ a:hover {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 25%;
