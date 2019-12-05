@@ -1,41 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Alexis Tran</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
-  </head>
+<!--
 
-  <body>
-    <div class="container">
-      <nav class="navbar">
-        <div class = "container-fluid">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">about</a></li>
-            <li><a href="https://www.behance.net/alexistran20e4">design work</a></li>
-            <li><a href="http://alexistran.myportfolio.com">photography</a></li>
-            <li><a href="https://www.dropbox.com/s/4ajps953vb4tnn6/atresumesafe.pdf?dl=0">resume</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="intro">
-        <h1>alexis tran</h1>
-        <h2>designer + developer</h2>
-        <h3>currently: graduating from uc berkeley in may 2018, looking for software engineering and design opportunities</h3>
-      </div>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/tranalexis/"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/alexistran"><i class="fa fa-github"></i></a>
-        <a href="https://www.behance.net/alexistran20e4"><i class="fa fa-behance"></i></a>
-        <a href="https://instagram.com/alxstrn"><i class="fa fa-instagram"></i></a>
-      </div>
+   Hi, I see you looking at my source code~ 
+   Have a good day :)
 
+  -->
+<html>
+<head>
+	<title>Alexis Tran</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Muli|Roboto+Mono|Nunito" rel="stylesheet">
+	<link rel="shortcut icon" href="images/egg.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a>
+		  <a href="alexistranresume2019.pdf" target="_blank">resume</a>
+		  <a href="index.html#about">about</a>
+		  <a href="index.html#play">play</a>
+		  <a href="index.html#work">work</a>
+		</div>
+		<div id="header">
+			<h1 style="margin-left: -1px">
+				alexis tran&mdash; <br>a product designer who aspires to do good.
+			</h1>
+		</div>
+		<div id="work">
+			<section class="sect work-sect">
+				<h2 style="margin-bottom: 0.5rem">featured work</h2>
+				<div class="card-wrapper">
+					<a href="capturemode.html" class="sect-card">
+						<div class="sect-card-img">
+							<img src="images/capturemode/cover.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title">Capture Mode</p>
+								<h3 class="card-metadata">Enabling interior designers to create from a different perspective</h3>
+							</div>
+						</div>
+					</a>
+					<a href="helpcenter.html" class="sect-card">
+						<div class="sect-card-img">
+							<img src="images/helpcenter/cover.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title">Help Center</p>
+								<h3 class="card-metadata">Designing a source of help for self-sufficency</h3>
+							</div>
+						</div>
+					</a>
+					<a href="roomvisualizer.html" class="sect-card">
+						<div class="sect-card-img">
+							<img src="images/roomvisualizer/cover.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title">Room Visualizer</p>
+								<h3 class="card-metadata">Building new experiences utilizing 3D visualization tech</h3>
+							</div>
+						</div>
+					</a>
+					<a href="blizzard.html" class="sect-card">
+						<div class="sect-card-img">
+							<img src="images/blizzard/cover.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title">Blizzard Entertainment</p>
+								<h3 class="card-metadata">Making data more accessible for everyone</h3>
+							</div>
+						</div>
+					</a>
+				</div>
 
+			</section>
+		</div>
+		<div id="about">
+			<h2>who is she</h2>
+			<p>Berkeley grad (Cognitive Science + Computer Science) with a lot of excitement and optimism for everything around me. Currently designing experiences at <b><a href="http://www.outwardinc.com/" target="_blank">Outward Inc</a></b>. Previously at <b><a href="https://www.blizzard.com/en-us/" target="_blank">Blizzard Entertainment</a></b>, <b><a href="https://innovativedesign.club/" target="_blank">Innovative Design</a></b>, and <b><a href="http://www.baremagazine.org/" target="_blank">Bare Magazine</a></b>.</p>
+			<p>I'm a creative problem solver with a background in design and software engineering. I have an insatiable desire to solve meaningful problems for people, particularly in projects that involve social good. Helping make people's lives easier is one of my ultimate goals in life. </p>
+			<p>In my free time I love photography, cooking/eating new foods, petting dogs, and trying new things. I'm currently learning how to box and shoot with film!</p>
+		</div>
+		<div id="play">
+			<section class="sect work-sect">
+				<h2>let's play</h2>
+				<div class="card-wrapper-2">
+					<a href="photography.html" class="sect-card">
+						<div class="sect-card-img box-color">
+							<img src="images/photography.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title card-title-2">Photography</p>
+							</div>
+						</div>
+					</a>
 
-    </div>
-  </body>
+					<a href="graphic.html" class="sect-card">
+						<div class="sect-card-img box-color">
+							<img src="images/illustration.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title card-title-2">Digital Illustration</p>
+							</div>
+						</div>
+					</a>
+					<a href="https://medium.com/@alexistran" target="_blank" class="sect-card">
+						<div class="sect-card-img box-color">
+							<img src="images/blog.png" alt="project image">
+						</div>
+						<div class="sect-info-wrapper">
+							<div class="sect-info">
+								<p class="card-title card-title-2">Blog</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+		<div id="goodbye">
+			<center>
+			<h2>let's grab coffee</h2>
+			<p>Except I don't actually like coffee, so let's grab tea? <br>
+			I'm currently located in the Bay Area, and would love to talk about what fonts bring you joy, collaborating, the latest shows on Netflix, or anything at all. <br><br> Feel free to reach out at <b>alexishtran@gmail.com</b></p>
+			</center>
+		</div>
+	</div>
+	
+	<footer>
+		<center><a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a></center><br>
+		<h5>
+		<a href="http://linkedin.com/in/tranalexis" target="_blank"><i class="fa fa-linkedin foot"></i></a> &nbsp;
+		<a href="https://dribbble.com/alxstrn" target="_blank"><i class="fa fa-dribbble foot"></i></a> &nbsp;
+		<a href="https://github.com/alexistran" target="_blank"><i class="fa fa-github foot"></i></a> &nbsp;
+		<a href="https://www.pinterest.com/alexistran/" target="_blank"><i class="fa fa-pinterest foot"></i></a> &nbsp;
+		<a href="http://instagram.com/alxstrn" target="_blank"><i class="fa fa-instagram foot"></i></a></h5>
+	</footer>
+	<script>
+		$(".sect-card").mouseenter(function(){
+		  	$(this).find(".sect-card-img").css("opacity","0.5");
+		});
+
+		$(".sect-card").mouseleave(function(){
+		  	$(this).find(".sect-card-img").css("opacity","1.0");
+		});
+	</script>
+
+</body>
 </html>

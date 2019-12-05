@@ -1,0 +1,252 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Muli', sans-serif;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+/*body {
+  font-family: 'Muli', sans-serif !important;
+}*/
+
+/*---------------nav---------------*/
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a:nth-child(1) {
+    float: left;
+    display: block;
+    color: #424242;
+    text-align: center;
+    padding: 40px 0px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
+}
+
+.topnav a:nth-child(n+2):nth-child(-n+5) {
+    float: right;
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:nth-child(n+2):nth-child(-n+5):hover {
+    color: #f0ad41;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#about a {
+    color: #424242;
+    border-bottom: 1px dotted #f0ad41;
+}
+
+#about a:hover {
+    /*text-decoration: none;*/
+    color: #f0ad41;
+}
+
+
+/*------------------header-----------------*/
+/*header {
+    margin: 70px 0px 135px 60px;
+    text-align: left;
+}*/
+#header {
+    padding: 50px 0px 0px 0px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 40px;
+    color: #f0ad41;
+}
+
+h2 {
+    padding-top: 70px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #666666;
+    font-family: 'Muli';
+    font-weight: 500;
+}
+h3 {
+    font-size: 16px;
+}
+
+p {
+    line-height: 30px;
+    color: #424242;
+}
+
+/*sect-info :hover {
+    font-size: 30px;
+    text-decoration: none;
+}*/
+
+/*----------------------work----------------------*/
+.card-wrapper {
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 30px;
+}
+.sect-card-image {
+    display: flex;
+    /*transition: transform(5s);*/
+}
+
+.sect-card-image img {
+    /*width: 8rem;*/
+    /*height: 5rem;*/
+    margin-right: 1rem;
+    
+}
+
+/*.sect-card-img:hover {
+    transform: scale(0.95);
+}*/
+
+.card-title {
+    align-items: center;
+    /*color: #424242;*/
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #424242;
+}
+
+.card-title:hover {
+    color: #f0ad41;
+}
+
+.card-metadata {
+    color: #2D2F32;
+    text-decoration: none;
+    margin-top: -0.22rem;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/*.card-metadata:hover {
+    color: #ddd;
+}*/
+/*.box-color {
+    background-color: blue;
+}*/
+.button-link {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #FFC400;
+    color: white;
+    width: 140px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+
+/*----------------------footer----------------------*/
+footer {
+    text-align: center;
+    margin: 60px 0;
+}
+footer h5 {
+    color: #424242;
+    font-size: 20px;
+}
+.foot {
+    color: #424242;
+}
+
+/*----------------media query----------------*/
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 641px) {
+    .topnav a:nth-child(n+2):nth-child(-n+5) {
+        display: none;
+    }
+    .wrapper {
+        width: 85%;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) {
+    html h1, html p, body h1, body p{
+        max-width: 700px;
+    }
+    .sect-card-img img {
+        width: 100%;
+        margin-bottom: 0rem;
+        /*height: 9rem;*/
+    }
+    /*.sect-card {
+        margin-bottom: 3rem;
+    }*/
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    .card-wrapper-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+
+    .sect-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sect-card .sect-card-img img {
+        width: 80%;
+        /*margin-bottom: 3rem;*/
+        /*height: 9rem;*/
+    }
+
+    .card-title-2 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+/*@media screen and (max-width: 800px) {
+    header {
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+}*/
