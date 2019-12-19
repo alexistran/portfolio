@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Inconsolata|Karla|Muli" rel="stylesheet">
 	<link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -32,7 +33,7 @@
 	<div class="container-fluid">
 		<div class="mx-auto" style="width: 70%;">
 	    	<div class="row ow-center">
-	    		<div class="col-lg-6 col-md-6 col-sm-12">
+	    		<div class="col-lg-6 col-md-6 col-sm-12 hideme">
 	    			<h2>Digital Illustrations</h2>
 	    			<h6>2016 - Present</h6>
 	    		</div>
@@ -42,19 +43,33 @@
  		<div class="mx-auto" style="width: 50%;">
   			<div class="row">
 	  			<div class="col-12">
-	  				<center><img src="images/graphicdesign/graphic1.png"></center>
-	  				<center><img src="images/graphicdesign/graphic2.png"></center>
-	  				<center><img src="images/graphicdesign/graphic3.png"></center>
-	  				<center><img src="images/graphicdesign/graphic4.png"></center>
-	  				<center><img src="images/graphicdesign/graphic5.png"></center>
-	  				<br><br><br>
-	  				<center><img src="images/graphicdesign/graphic6.png"></center>
-	  				<br><br><br>
-	  				<center><img src="images/graphicdesign/graphic7.png"></center>
-	  				<br><br><br>
-	  				<center><img src="images/graphicdesign/graphic8.png"></center>
-	  				<br><br><br>
-	  				<center><img src="images/graphicdesign/graphic9.png"></center>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic1.png"></center>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic2.png"></center>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic3.png"></center>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic4.png"></center>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic5.png"></center><br><br><br>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic6.png"></center><br><br><br>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic7.png"></center><br><br><br>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic8.png"></center><br><br><br>
+	  				</div>
+	  				<div class="hideme">
+	  					<center><img src="images/graphicdesign/graphic9.png"></center>
+	  				</div>
   				</div>
   			</div>
 		</div>
@@ -63,16 +78,45 @@
 	
 
 	<footer>
-		<center><a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a></center><br>
-		<h5>
-		<a href="http://linkedin.com/in/tranalexis" target="_blank"><i class="fa fa-linkedin foot"></i></a> &nbsp;
-		<a href="https://dribbble.com/alxstrn" target="_blank"><i class="fa fa-dribbble foot"></i></a> &nbsp;
-		<a href="https://github.com/alexistran" target="_blank"><i class="fa fa-github foot"></i></a> &nbsp;
-		<a href="https://www.pinterest.com/alexistran/" target="_blank"><i class="fa fa-pinterest foot"></i></a> &nbsp;
-		<a href="http://instagram.com/alxstrn" target="_blank"><i class="fa fa-instagram foot"></i></a></h5>
+		<div class="hideme">
+			<center><a href="index.html"><img src="images/egg.png" class="egg" height=50px width=50px></a></center><br>
+			<h5>
+			<a href="http://linkedin.com/in/tranalexis" target="_blank"><i class="fa fa-linkedin foot"></i></a> &nbsp;
+			<a href="https://dribbble.com/alxstrn" target="_blank"><i class="fa fa-dribbble foot"></i></a> &nbsp;
+			<a href="https://github.com/alexistran" target="_blank"><i class="fa fa-github foot"></i></a> &nbsp;
+			<a href="https://www.pinterest.com/alexistran/" target="_blank"><i class="fa fa-pinterest foot"></i></a> &nbsp;
+			<a href="http://instagram.com/alxstrn" target="_blank"><i class="fa fa-instagram foot"></i></a></h5>
+		</div>
 	</footer>
 
 	<script type="text/javascript" src="main.js"></script>
+	<script>
+		function fade_in(){
+  			$('.hideme').each( function(i){
+	            var top_of_object = $(this).position().top;
+	            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+	            var bottom_of_window = $(window).scrollTop() + $(window).height();
+	            
+	            /* If the object is completely visible in the window, fade it it */
+	            if( bottom_of_window > top_of_object ){
+	                
+	                $(this).animate({'opacity':'1'},700);
+	                    
+	            }
+            
+       		 }); 
+  		}
+
+		$(document).ready(function() {
+		   fade_in();
+		    /* Every time the window is scrolled ... */
+		    $(window).scroll( function(){
+		    
+		        fade_in();
+		    });
+		});
+	</script>
+
 
 </body>
 </html>

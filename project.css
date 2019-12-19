@@ -27,7 +27,9 @@ h6 {
     /*line-height: 200%;*/
 }
 
-
+.hideme {
+    opacity: 0;
+}
 
 /*---------------nav---------------*/
 .topnav {
