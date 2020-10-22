@@ -73,6 +73,16 @@ a:hover {
     color: #f0ad41;
 }
 
+#header a {
+    color: #424242;
+    border-bottom: 1px dotted #f0ad41;
+}
+
+#header a:hover {
+    /*text-decoration: none;*/
+    color: #f0ad41;
+}
+
 
 /*------------------header-----------------*/
 /*header {
