@@ -47,7 +47,7 @@ h6 {
     font-size: 24px;
     font-weight: 900;
     font-family: 'Muli', sans-serif;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
 }
 
 .topnav a:nth-child(n+2):nth-child(-n+5) {
@@ -87,15 +87,10 @@ a:hover {
 
 /*----------------------body----------------------*/
 
-img {
+img:not(.egg) {
   display: block;
   max-width: 90%;
   height: auto;
-}
-
-img.egg {
-    max-width: 50px;
-    height: 50px;
 }
 
 .page-break {
